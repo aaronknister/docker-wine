@@ -1,0 +1,14 @@
+Index: ./debian/changelog
+===================================================================
+--- ./debian/changelog
++++ ./debian/changelog
+@@ -1,3 +1,9 @@
++wine (5.0.1~eoan.1) UNRELEASED; urgency=low
++
++  * add patch to fix teraterm issue w/serial ports
++
++ -- Aaron Knister <aaron.knister@gmail.com>  Sun, 31 Jan 2021 16:15:46 -0500
++
+ wine (5.0.1~eoan) UNRELEASED; urgency=low
+ 
+   * version number update by debtransform

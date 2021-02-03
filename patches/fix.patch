@@ -1,0 +1,12 @@
+diff -ur ./dlls/ntdll/file.c ../BUILD/dlls/ntdll/file.c
+--- ./dlls/ntdll/file.c	2020-06-02 13:09:41.000000000 +0000
++++ ./dlls/ntdll/file.c	2021-02-02 00:25:55.189770649 +0000
+@@ -947,7 +947,7 @@
+ 
+             if ((status = get_io_avail_mode( hFile, type, &avail_mode )))
+                 goto err;
+-            if (total && avail_mode)
++            if (avail_mode)
+             {
+                 status = STATUS_SUCCESS;
+                 goto done;
